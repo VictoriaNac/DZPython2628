@@ -10,7 +10,7 @@
 n=int(input())
 m=int(input())
 s=int(input())
-if s < n * m and (s%4==0 or s%5==0):
+if s < n * m and (s%n==0 or s%m==0):
     print('yes')
 else:
     print('no')
